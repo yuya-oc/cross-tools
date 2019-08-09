@@ -1,2 +1,3 @@
-export CC=arm-linux-gnueabihf-gcc
-export CXX=arm-linux-gnueabihf-g++
+export TARGET=arm-linux-gnueabihf
+export CC="${TARGET}-gcc"
+export CXX="${TARGET}-g++"
