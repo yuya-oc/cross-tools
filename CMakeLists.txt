@@ -11,6 +11,7 @@ set(MODULES
     zlib
     libressl
     openssh
+    jq
 )
 
 foreach(mod IN LISTS MODULES)
